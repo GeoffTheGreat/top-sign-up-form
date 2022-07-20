@@ -1,0 +1,108 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(./assets/fonts/Norse-Bold.otf);
+}
+* {
+  margin: 0;
+  font-family: "Acme", sans-serif;
+}
+.main--container {
+  display: flex;
+}
+.main--logo {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/images/kristijan-arsov-tcw3nwoAgvs-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 40vw;
+  height: 100vh;
+}
+.logo--set {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  margin: auto auto;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.logo--img {
+  height: 5rem;
+}
+.logo--text {
+  color: white;
+  font-family: "norse-bold", sans-serif;
+  font-size: 4rem;
+}
+.main--form {
+  width: 60%;
+  height: 100vh;
+  background-color: rgba(211, 211, 211, 0.4);
+}
+.hero {
+  /* background-color: rgba(211, 211, 211, 0.4); */
+  padding: 2rem 3rem;
+}
+.hero--text {
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.form--content {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 -5px 1px rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 5px rgba(211, 211, 211, 0.9);
+}
+.form--heading {
+  font-weight: lighter;
+}
+.form--row {
+  padding: 10px 0px;
+  display: flex;
+  gap: 2rem;
+}
+.form--input {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  font-size: 0.7rem;
+  gap: 5px;
+}
+input {
+  border: 0.5px solid rgba(175, 132, 74, 0.5);
+  border-radius: 2px;
+}
+.form--submit {
+  padding: 2rem;
+  /* background-color: rgba(211, 211, 211, 0.4); */
+  bottom: 0;
+}
+.btn--submit {
+  padding: 0.2rem 1.5rem;
+  background-color: rgba(175, 132, 74, 0.5);
+  border: 0.5px solid rgba(175, 132, 74, 0.8);
+  border-radius: 5px;
+}
+.have--account {
+  padding-top: 15px;
+}
+.have--account a {
+  text-decoration: none;
+  color: rgba(175, 132, 74);
+}
+.error {
+  color: rgba(255, 0, 0, 0.9);
+}
+.error-input {
+  border: 0.5px solid rgba(255, 0, 0, 0.9);
+  border-radius: 2px;
+}
+.success-input,
+#email:valid {
+  border: 0.5px solid rgba(31, 121, 31, 0.9);
+  border-radius: 2px;
+}

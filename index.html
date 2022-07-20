@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Now</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main--container">
+      <div class="main--logo">
+        <div class="logo--set">
+          <img
+            src="./assets/images/odin-lined.png"
+            alt="odin logo"
+            class="logo--img"
+          />
+          <h1 class="logo--text">ODIN</h1>
+        </div>
+      </div>
+      <div class="main--form">
+        <div class="hero">
+          <p class="hero--text">
+            This is not a real online service! Become a real life Viking today!
+            It's just a few clicks away. <br />
+            Sign up now to start your exploration and pillaging.
+            <br /><br />You know you want to
+          </p>
+        </div>
+        <form action="#" class="form" id="form">
+          <div class="form--content">
+            <h2 class="form--heading">Let's do this!</h2>
+            <div class="form--row">
+              <div class="form--input">
+                <label for="first-name">FIRST NAME *</label>
+                <input type="text" name="first-name" id="first-name" required />
+                <div class="error"></div>
+              </div>
+              <div class="form--input">
+                <label for="last-name">LAST NAME *</label>
+                <input type="text" name="last-name" id="last-name" required />
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="form--row">
+              <div class="form--input">
+                <label for="email">EMAIL *</label>
+                <input type="email" name="email" id="email" required />
+                <div class="error"></div>
+              </div>
+              <div class="form--input">
+                <label for="username">USERNAME *</label>
+                <input type="text" name="username" id="username" required />
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="form--row">
+              <div class="form--input">
+                <label for="password">PASSWORD *</label>
+                <input type="password" name="password" id="password" required />
+                <div class="error"></div>
+              </div>
+              <div class="form--input">
+                <label for="confirm-password">CONFIRM PASSWORD *</label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                  required
+                />
+                <div class="error"></div>
+              </div>
+            </div>
+            <p style="font-size: 0.7rem; padding-top: 1rem">
+              * fields are required
+            </p>
+          </div>
+          <div class="form--submit">
+            <input
+              type="submit"
+              value="Create Account"
+              class="btn--submit"
+              id="submit--btn"
+            />
+            <p class="have--account">
+              Already have an account? <a href="#">Log In</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
