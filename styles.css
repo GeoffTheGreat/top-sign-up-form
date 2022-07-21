@@ -16,7 +16,6 @@
   background-position: center center;
   background-size: cover;
   width: 40vw;
-  height: 100vh;
 }
 .logo--set {
   display: flex;
@@ -39,16 +38,14 @@
 }
 .main--form {
   width: 60%;
-  height: 100vh;
   background-color: rgba(211, 211, 211, 0.4);
 }
 .hero {
-  /* background-color: rgba(211, 211, 211, 0.4); */
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
 }
 .hero--text {
   width: 80%;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .form--content {
@@ -78,7 +75,6 @@ input {
 }
 .form--submit {
   padding: 2rem;
-  /* background-color: rgba(211, 211, 211, 0.4); */
   bottom: 0;
 }
 .btn--submit {
